@@ -7,7 +7,23 @@ header {
   padding-top: 25px;
   padding-left: 50px;
   padding-right: 35px;
+
 }
+footer {
+  background-color:#150300;
+  height: 40px;
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 10px;
+}
+#footer-left {
+  float:left;
+}
+#footer-right {
+  float:right;
+}
+
 header nav {
   float: right;
 }
@@ -30,6 +46,9 @@ header nav a {
 }
 #content {
   margin: 50px;
+}
+main{
+  height: 80vh;
 }
 main a:link,
 main a:visited {

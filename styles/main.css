@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #150300;
+  height: 50px;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 35px;
+}
+header nav {
+  float: right;
+}
+
+header a:link,
+header a:visited {
+  color: white;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  text-decoration: underline;
+  font-weight: bold;
+}
+header nav a {
+  margin-right: 15px;
+}
+#content {
+  margin: 50px;
+}
+main a:link,
+main a:visited {
+  color: #de9949;
+  font-weight: bold;
+  font-size: 18px;
+}
+#left,
+#right {
+  display: inline-block;
+  max-width: 50%;
+  text-align: center;
+  vertical-align: top;
+}
+#right {
+  float: right;
+}
+#title {
+  color: #de9949;
+  font-family: "Marck Script", cursive;
+  font-size: 28px;
+  margin: 0;
+
+}
+#subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  margin: 0;
+
+}
+#star {
+    margin: 0;
+}
+#description {
+  color: #838383;
+  font-size: 24px;
+  margin: 15px 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
